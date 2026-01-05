@@ -143,4 +143,5 @@ setTimeout(() => {
     setTimeout(() => {
         sectionAll.style.opacity = '1';
     }, 50);
-}, 3000);
+
+}, 2000);
