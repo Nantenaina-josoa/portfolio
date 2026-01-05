@@ -164,11 +164,11 @@ Le site intègre des animations modernes, des filtres dynamiques et une expérie
 
 1. Cloner le dépôt :
 ```bash
-git clone https://github.com/ton-username/portfolio.git
+git clone https://github.com/Nantenaina-josoa/portfolio.git
 
 2. Ouvrir le fichier index.html dans un navigateur.
 
-Aucune configuration serveur requise (site statique).
+<i> Aucune configuration serveur requise (site statique). </i>
 
 Contact
 
@@ -186,3 +186,4 @@ Nantenaina Josoa
 Développeur Web • Mobile • Designer UI/UX
 
 © 2025 – Tous droits réservés
+
