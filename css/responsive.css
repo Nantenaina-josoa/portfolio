@@ -1,0 +1,295 @@
+/* ecran 1 */
+@media screen and (max-width: 1114px){
+/* section accueil */
+.p2-accueil{
+    width: 450px;
+}
+
+.btn-nav{ display: none; }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ecran 2 */
+@media screen and (max-width: 992px){
+.menu{ display: flex; gap: 20px; }
+.btn-nav{ display: none; }
+.toggle{ display: none; }
+.nav{ padding: 15px 20px; }
+
+.menu a{
+    color: var(--color-light) !important;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 5px;
+  }
+
+
+/* section accueil */
+#accueil{
+    padding: 100px auto;
+}
+
+.p2-accueil{
+    width: 350px;
+    font-size: 16px;
+}
+
+.h2-accueil{
+    font-size: 20px;
+}
+
+
+/* information */
+#information{
+    padding: 20px 20px;
+}
+
+.photo-information{
+    width: 60%;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+/* service */
+#service{
+    padding: 20px 20px;
+} 
+
+/* compétences */
+#competence{
+    padding: 20px 20px;
+} 
+
+/* équipe */
+#equipe{
+    padding: 20px 20px;
+}
+
+/* contact */
+#contact{
+    padding: 20px 20px;
+}
+
+/* projet */
+#projet{
+    padding: 20px 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ecran 3 */
+@media screen and (max-width: 720px){
+.menu{ display: none; }
+.btn-nav{ display: none; }
+.toggle{ display: block; }
+.nav{ padding: 10px 20px; }
+
+
+/* section accueil */
+#accueil{
+    padding: 100px auto;
+}
+
+.p2-accueil{
+    width: 300px;
+    font-size: 14px;
+}
+
+.h2-accueil{
+    font-size: 20px;
+}
+
+
+
+/* information */
+#information{
+    padding: 20px 15px;
+}
+
+.photo-information{
+    width: 100%;
+    height: 400px;
+}
+
+p{
+    font-size: 15px;
+}
+h2{
+    font-size: 1.8rem;
+}
+
+
+
+/* Section service */
+#service{
+    padding: 20px 15px;
+} 
+
+
+/* compétences */
+#competence{
+    padding: 20px 15px;
+} 
+
+/* équipe */
+#equipe{
+    padding: 20px 15px;
+}
+
+.element-equipe{
+    width: 100%;
+}
+
+/* contact */
+#contact{
+    padding: 20px 15px;
+}
+
+/* projet */
+#projet{
+    padding: 20px 15px;
+}
+
+.p-equipe1{
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ecran 4 */
+@media screen and (max-width: 512px){
+.menu a{ font-size: 14px; }
+.nav{ padding: 10px 15px; }
+
+
+/* accueil */
+#accueil{
+    padding: 70px auto;
+}
+
+.p2-accueil{
+    width: 300px;
+    font-size: 13px;
+}
+
+.h2-accueil{
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+
+}
+
+
+/* ecran 2 */
+@media screen and (max-width: 320px){
+/* section accueil */
+#accueil{
+    padding: 70px auto;
+}
+
+.p2-accueil{
+    width: 290px;
+    font-size: 13px;
+}
+
+.h2-accueil{
+    font-size: 20px;
+}
+
+
+/* information */
+#information{
+    padding: 20px 10px;
+}
+
+p{
+    font-size: 13px;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+
+/* service */
+#service{
+    padding: 20px 10px;
+} 
+
+/* compétences */
+#competence{
+    padding: 20px 10px;
+} 
+
+/* équipe */
+#equipe{
+    padding: 20px 10px;
+} 
+
+.element-equipe{
+    width: 100%;
+}
+
+
+/* contact */
+#contact{
+    padding: 20px 10px;
+}
+
+/* projet */
+#projet{
+    padding: 20px 10px;
+}
+
+}

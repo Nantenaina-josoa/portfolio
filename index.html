@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- annimate css -->
+    <link rel="stylesheet" href="animate/animate.css">
+    <!-- aos master -->
+    <link rel="stylesheet" href="aos/aos.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/all.css">
+    <!-- glightbox -->
+    <link rel="stylesheet" href="glightbox/css/glightbox.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <!-- favicon -->
+     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <title>Nantenaina josoa</title>
+</head>
+<body>
+ <div class="sectionAll" id="sectionAll">
+    <!-- bare de navigation -->
+    <section class="navigation">
+        <nav class="nav d-flex justify-content-between" uk-sticky>
+
+        <div class="logo">
+            <h4 class="h4-logo">Portfolio</h4>
+        </div>
+
+        <div class="menu" id="menu">
+            <a href="#accueil">Accueil</a>
+            <a href="#information">Information</a>
+            <a href="#service">Service</a> 
+            <a href="#competence">Competence</a>
+            <a href="#projet">Projet</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#contact">Contact</a>
+         </div>
+
+        <div class="btn-nav">
+            <button class="btn-homes">Télécharger <i class="fal fa-download"></i></button>
+        </div>
+
+        <div class="toggle">
+            <i class="fal fa-bars" id="bars"></i>
+            <i class="fal fa-times" id="bars2"></i>
+        </div>
+
+        </nav>
+    </section>
+
+
+    <!-- accueil -->
+     <section class="accueil" id="accueil">
+        <div class="groupe-accueil text-center" id="groupe-accueil">
+            <div class="image-accueil mb-3">
+                <a href="images/photo.jpg" class="glightbox">
+                    <img src="images/photo.jpg" alt="mon photo de profile" class="pdp-accueil">
+                </a>
+            </div>
+            <div class="description-accueil">
+                <h2 class="h2-accueil">Je suis <span class="span-accueil"></span></h2>
+                <p class="p1-accueil"> <span id="typed"></span> </p>
+                <p class="p2-accueil">Mon ambition est de créer des solutions numériques élégantes, intuitives et adaptées aux besoins des utilisateurs, tout en continuant à apprendre et à évoluer dans l’univers technologique.</p>
+                <div class="groupe-button-accueil d-flex justify-content-center align-items-center">
+                    <a href="#" class="link-accueil"><button class="btn-accueil" id="appeler"><i class="fal fa-phone"></i></button></a>
+                    <a href="404.html" class="link-accueil"><button class="btn-accueil"><i class="fal fa-download"></i></button></a>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+
+    <!-- informations -->
+     <section class="information" id="information">
+        <div class="groupe-information" id="groupe-information">
+            <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Information</h2>
+            </div>
+            <div class="citation mb-4 text-center">
+                <p class="text-citation"><i class="fal fa-quote-left mr-2"></i> <span class="citation-typed" id="citation-typed">La seule chose qui interfére avec mon apprentissage est mon éducation.</span> <i class="fal fa-quote-right ml-2"></i></p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="element-information mb-4">
+                        <a href="images/photo1.png" class="glightbox d-flex justify-content-center align-items-center m-auto">
+                            <img src="images/photo1.png" alt="mon photo de profile" class="photo-information">
+                        </a> 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="element-information">
+                        <h2 class="h2-information mb-4">Passionné de créer des expériences numériques significatives</h2>
+                        <p class="p-information mb-4">Avec 5 mois d'expérience dans la conception numérique, je me spécialise dans la création de solutions centrées sur l'utilisateur qui comblent le fossé entre la fonctionnalité et l'esthétique. Mon approche combine la réflexion stratégique avec une exécution créative pour produire des résultats percutants.</p>
+                        <p class="p-information mb-4">Je crois qu'un excellent design ne concerne pas seulement son apparence, mais comment cela fonctionne et comment il fait sentir les gens. Chaque projet est une opportunité de résoudre des problèmes et de créer des liens qui comptent.</p>
+                        <p class="p-information mb-4">Lorsque je ne dessine pas, vous me trouverez à explorer de nouvelles technologies, à dessiner des idées ou à rechercher l'inspiration dans la nature et l'architecture.</p>
+                        <div class="service-information d-flex justify-content-center align-items-center">
+                            <div class="part-information">
+                                <p class="skl-information">Ui/Ux</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Mobile</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Web</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Graphique</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Prototype</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Conception</p>
+                            </div>
+                            <div class="part-information">
+                                <p class="skl-information">Responsive</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- services -->
+     <section class="service" id="service">
+        <div class="groupe-service" id="groupe-services">
+            <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Services</h2>
+            </div>
+            <div class="dsc-equipe">
+               <p class="p-equipe1">Offre de services variés incluant le design UI/UX, le développement web front-end et back-end, la création d’applications Android, ainsi que la conception graphique. Chaque service est pensé pour répondre aux besoins spécifiques des clients et garantir des solutions efficaces, créatives et professionnelles.</p> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                   <div class="element-service">
+                       <div class="part1-service">
+                          <p class="ic-service"><img src="images/icons/ui.png" alt="icon" class="icon-service"></p>
+                           <h4 class="h4-service">Conception Ui/Ux</h4>
+                       </div>
+                       <div class="part2-service">
+                         <p class="p1-service text-justify">Créez des interfaces utilisateur époustouflantes avec des principes de conception modernes, en vous concentrant sur la convivialité et l'attrait esthétique.</p>
+                         <ul class="ul-service">
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Recherche et analyse des utilisateurs</li> 
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Maquettage et prototypage</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Conception visuelle et image de marque</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Conception adaptative</li>
+                         </ul>
+                       </div>
+                   </div> 
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                   <div class="element-service">
+                       <div class="part1-service">
+                         <p class="ic-service"><img src="images/icons/web.png" alt="icon" class="icon-service"></p>
+                           <h4 class="h4-service">Développement web</h4>
+                       </div>
+                       <div class="part2-service">
+                         <p class="p1-service text-justify">Créez des sites Web rapides, sécurisés et évolutifs en utilisant les dernières technologies Web et les meilleures pratiques.</p>
+                         <ul class="ul-service">
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Développement front-end</li> 
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Intégration back-end</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Optimisation des performances</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Mise en œuvre du référencement (SEO)</li>
+                         </ul>
+                       </div>
+                   </div> 
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                   <div class="element-service">
+                       <div class="part1-service">
+                         <p class="ic-service"><img src="images/icons/mobile.png" alt="icon" class="icon-service"></p>
+                           <h4 class="h4-service">Développement mobile</h4>
+                       </div>
+                       <div class="part2-service">
+                         <p class="p1-service text-justify">Développer des applications mobiles natives et multiplateformes offrant des expériences utilisateur exceptionnelles.</p>
+                         <ul class="ul-service">
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Développement Android</li> 
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Solutions multiplateformes</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Optimisation pour l'App Store</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Maintenance et mises à jour</li>
+                         </ul>
+                       </div>
+                   </div> 
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                   <div class="element-service">
+                       <div class="part1-service">
+                         <p class="ic-service"><img src="images/icons/strategy.png" alt="icon" class="icon-service"></p>
+                           <h4 class="h4-service">Stratégie numérique</h4>
+                       </div>
+                       <div class="part2-service">
+                         <p class="p1-service text-justify">Conseil stratégique pour aider votre entreprise à prospérer dans l'environnement numérique grâce à des analyses de données.</p>
+                         <ul class="ul-service">
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Transformation numérique</li> 
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Analyse et reporting</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Stratégie de croissance</li>
+                            <li class="li-service"><i class="fal fa-angle-right"></i> Conseil en technologies</li>
+                         </ul>
+                       </div>
+                   </div> 
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+
+    <!-- competences -->
+     <section class="competence" id="competence">
+        <div class="groupe-competence" id="groupe-competence">
+            <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Compétences</h2>
+            </div>
+            <div class="dsc-equipe">
+               <p class="p-equipe1">Compétences en UI/UX pour des designs intuitifs, en développement front-end et back-end pour des applications et sites performants, ainsi qu’en utilisation de frameworks et outils modernes. Des connaissances en création d’applications Android et en design graphique permettent de réaliser des projets complets et créatifs.</p> 
+            </div>
+            <div class="select-competence mb-4">
+                <button class="button-select btn-filter" data-filter="all">Toutes</button>
+                <button class="button-select btn-filter" data-filter=".uiux">Ui/Ux</button> 
+                <button class="button-select btn-filter" data-filter=".front">Front-end</button>
+                <button class="button-select btn-filter" data-filter=".back">Back-end</button>
+                <button class="button-select btn-filter" data-filter=".framework">Framework</button>
+                <button class="button-select btn-filter" data-filter=".outil">Outils</button>
+                <button class="button-select btn-filter" data-filter=".mobile">Android</button>
+                <button class="button-select btn-filter" data-filter=".graphique">Graphique</button>
+            </div>
+            <div class="row" id="skills-container">
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix front">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #FF9410; --value: 90">
+								<p class="p"><span class="span">HTML</span> <span>90%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #10C1FF; --value: 80">
+								<p class="p"><span class="span">CSS</span> <span>80%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #FFEB10; --value: 65">
+								<p class="p"><span class="span">JS</span> <span>65%</span></p>
+							</div>
+						</div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix back">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #880BE4; --value: 65">
+								<p class="p"><span class="span">PHP</span> <span>65%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #00D728; --value: 37">
+								<p class="p"><span class="span">NODEJS</span> <span>37%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #0093D3; --value: 60">
+								<p class="p"><span class="span">MYSQL</span> <span>60%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #2AA548; --value: 40">
+								<p class="p"><span class="span">MONGODB</span> <span>40%</span></p>
+							</div>
+						</div>
+                   </div>
+               </div> 
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix uiux">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #A52AA2; --value: 60">
+								<p class="p"><span class="span">Adobe xd</span> <span>60%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #FF7171; --value: 50">
+								<p class="p"><span class="span">Figma</span> <span>50%</span></p>
+							</div>
+						</div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix graphique">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #856FFF; --value: 67">
+								<p class="p"><span class="span">Adobe ps</span> <span>67%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #FFB46F; --value: 38">
+								<p class="p"><span class="span">Adobe ai</span> <span>38%</span></p>
+							</div>
+						</div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix mobile">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #FE4F4F; --value: 55">
+								<p class="p"><span class="span">Java</span> <span>55%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #5C83CD; --value: 60">
+								<p class="p"><span class="span">Xml</span> <span>60%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #5BCDFF; --value: 70">
+								<p class="p"><span class="span">Flutter</span> <span>70%</span></p>
+							</div>
+						</div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix framework">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #008ED3; --value: 45">
+								<p class="p"><span class="span">Tailwindcss</span> <span>45%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #C400D3; --value: 75">
+								<p class="p"><span class="span">Bootstrap</span> <span>75%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #00D3AE; --value: 55">
+								<p class="p"><span class="span">Bulma</span> <span>55%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #D37900; --value: 40">
+								<p class="p"><span class="span">Uikit</span> <span>40%</span></p>
+							</div> 
+						</div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix outil">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #282828; --value: 70">
+								<p class="p"><span class="span">Git/Github</span> <span>70%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #FF8F1D; --value: 50">
+								<p class="p"><span class="span">Postman</span> <span>50%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #FF1D1D; --value: 80">
+								<p class="p"><span class="span">Npm</span> <span>80%</span></p>
+							</div> 
+							<div class="circular-progress" style="--clr: #FFAA1D; --value: 55">
+								<p class="p"><span class="span">Firebase</span> <span>55%</span></p>
+							</div> 
+						</div>
+                   </div>
+               </div>
+
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-competence mb-4 mix outil">
+                       <div class="containers">
+							<div class="circular-progress" style="--clr: #005eda; --value: 95">
+								<p class="p"><span class="span">Word</span> <span>95%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #2fed00; --value: 70">
+								<p class="p"><span class="span">Excel</span> <span>70%</span></p>
+							</div>
+							<div class="circular-progress" style="--clr: #ec9900; --value: 80">
+								<p class="p"><span class="span">Powerpoint</span> <span>80%</span></p>
+							</div> 
+							<div class="circular-progress" style="--clr: #7b581a; --value: 75">
+								<p class="p"><span class="span">Access</span> <span>75%</span></p>
+							</div> 
+						</div>
+                   </div>
+               </div>
+            </div>
+        </div>
+     </section>
+
+
+    <!-- projets -->
+     <section class="projet" id="projet">
+        <div class="groupe-projet" id="groupe-projet">
+            <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Projets</h2>
+            </div>
+            <div class="dsc-equipe">
+               <p class="p-equipe1">Réalisation de projets variés combinant design, développement et créativité, allant de sites web interactifs à des applications fonctionnelles et des solutions graphiques. Chaque projet est conçu pour être innovant, efficace et répondre aux besoins spécifiques des utilisateurs.</p> 
+            </div>
+            
+            <div class="row" id="skills-projet">
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet1.jpg" class="glightbox">
+                                    <img src="images/projet/projet1.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">Performance Musicale Live</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Adobe ps</p>
+                                    <p class="langage-projet">Adobe Ai</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet2.jpg" class="glightbox">
+                                    <img src="images/projet/projet2.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">Crone waffle</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Adobe ps</p>
+                                    <p class="langage-projet">Adobe Ai</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet3.jpg" class="glightbox">
+                                    <img src="images/projet/projet3.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">Digital agency</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Adobe xd</p>
+                                    <p class="langage-projet">Adobe ps</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet4.jpg" class="glightbox">
+                                    <img src="images/projet/projet4.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">Gestion Scolaire</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Html</p>
+                                    <p class="langage-projet">Css</p>
+                                    <p class="langage-projet">Javascript</p>
+                                    <p class="langage-projet">Bootstrap</p>
+                                    <p class="langage-projet">Tailwindcss</p>
+                                    <p class="langage-projet">Uikit</p>
+                                    <p class="langage-projet">Php & Mysql</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet5.jpg" class="glightbox">
+                                    <img src="images/projet/projet5.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">PressMart</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Html</p>
+                                    <p class="langage-projet">Css</p>
+                                    <p class="langage-projet">Javascript</p>
+                                    <p class="langage-projet">Bootstrap</p>
+                                    <p class="langage-projet">Uikit</p>
+                                    <p class="langage-projet">Nodejs & Mongodb</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet6.jpg" class="glightbox">
+                                    <img src="images/projet/projet6.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">CNTEMAD info</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Xml</p>
+                                    <p class="langage-projet">Java</p>
+                                    <p class="langage-projet">Firebase</p>
+                                    <p class="langage-projet">Adobe xd</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+               <div class="col-lg-6 col-md-6">
+                   <div class="element-projet mb-4">
+                       <div class="groupe-element-projet">
+                             <div class="section-projet1">
+                                 <a href="images/projet/projet7.jpg" class="glightbox">
+                                    <img src="images/projet/projet7.jpg" alt="Projet photo" class="photo-projet">
+                                 </a>
+                             </div>
+                             <div class="section-projet2">
+                                 <div class="groupe-section-projet2">
+                                 <h4 class="titre-projet">Toolbox</h4> 
+                                 <div class="langage-projet-groupe">
+                                    <p class="langage-projet">Flutter / Dart</p>
+                                    <p class="langage-projet">Figma</p>
+                                 </div> 
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+               </div>
+               
+            </div>
+        </div>
+     </section>
+     
+     
+    <!-- équipe -->
+    <section class="equipe" id="equipe">
+       <div class="groupe-equipe" id="groupe-equipe">
+           <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Equipes</h2>
+            </div>
+            <div class="dsc-equipe">
+               <p class="p-equipe1">Notre équipe réunit des professionnels passionnés et expérimentés, chacun apportant son expertise pour créer des projets innovants et performants. Nous misons sur la collaboration, la créativité et l’échange d’idées pour transformer chaque concept en réalisation concrète et de qualité, en offrant des solutions originales qui répondent aux besoins de nos clients.</p> 
+            </div>
+            <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="element-equipe">
+                        <a href="images/photo2.png" class="glightbox d-flex justify-content-center align-items-center m-auto">
+                            <img src="images/photo2.png" alt="photo de profile" class="photo-equipe">
+                        </a>
+                    <h4 class="h4-equipe">John Doe</h4>
+                    <p class="p-equipe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="contact-equipe">
+                        <a class="link-equipe" href="404.html"><i class="fab fa-facebook"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-instagram"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-github"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-whatsapp"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="element-equipe">
+                        <a href="images/photo3.png" class="glightbox d-flex justify-content-center align-items-center m-auto">
+                            <img src="images/photo3.png" alt="photo de profile" class="photo-equipe">
+                        </a>
+                    <h4 class="h4-equipe">Paul robert</h4>
+                    <p class="p-equipe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="contact-equipe">
+                        <a class="link-equipe" href="404.html"><i class="fab fa-facebook"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-instagram"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-github"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-whatsapp"></i></a>
+                        <a class="link-equipe" href="404.html"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    </div>
+                </div> 
+                
+            </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+       </div> 
+    </section>
+    
+   
+    <!-- contact -->
+     <section class="contact" id="contact">
+        <div class="groupe-contact" id="groupe-contact">
+            <div class="title-section mb-4">
+                <h2 class="h2-title text-center">Contact me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="element-contact">
+                        <form action="#" class="form-contact">
+                            <div class="group-form">
+                                <label for="nom" class="label">Votre nom</label>
+                                <input type="text" placeholder="Nom complet" class="input-contact" required>
+                            </div>
+                            <div class="group-form">
+                                <label for="email" class="label">Votre email</label>
+                                <input type="email" placeholder="Adresse email" class="input-contact" required>
+                            </div>
+                            <div class="group-form">
+                                <label for="sujet" class="label">Sujet</label>
+                                <input type="text" placeholder="Sujet" class="input-contact" required>
+                            </div>
+                            <div class="group-form">
+                                <label for="message" class="label">Message</label>
+                                <textarea id="message" placeholder="Message" class="textarea-contact" required></textarea>
+                            </div>
+                            <div class="group-form">
+                               <button class="button-contact">Envoyer <i class="fal fa-paper-plane"></i></button> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="element-contact">
+                        <h4 class="h4-contact">Entrer en contact</h4>
+                        <p class="p-contact">
+                            Vous souhaitez discuter d’un projet, obtenir des informations techniques ou proposer une collaboration ?
+Je suis ouvert aux échanges professionnels et je me tiens disponible pour étudier toute opportunité.
+                        </p>
+                        <p class="p-contact">
+                            Chaque message est traité avec attention et je m’efforce d’y répondre dans les meilleurs délais.
+Vous pouvez me contacter via le formulaire ci-dessous ou par mes canaux dédiés.
+                        </p>
+                        <p class="p-contact">
+                            Merci pour votre visite et l’intérêt porté à mon profil.
+                        </p>
+                        <div class="groupe-contact-1">
+                            <div class="icon-contact">
+                                <div class="el-c">
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                                <div class="el-c">
+                                    <h5 class="h5-c">Appelez-nous</h5>
+                                    <p class="p-c">+261 33 96 832 07</p>
+                                </div>
+                            </div>
+                            <div class="icon-contact d-flex">
+                                <div class="el-c">
+                                    <i class="fal fa-envelope-open"></i>
+                                </div>
+                                <div class="el-c">
+                                    <h5 class="h5-c">Envoyez-nous</h5>
+                                    <p class="p-c">rnantenainajosoa@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="icon-contact d-flex">
+                                <div class="el-c">
+                                    <i class="fal fa-globe"></i>
+                                </div>
+                                <div class="el-c">
+                                    <h5 class="h5-c">Site web</h5>
+                                    <p class="p-c">https://www.nantenainajosoa.me</p>
+                                </div>
+                            </div>
+                            <div class="icon-contact d-flex">
+                                <div class="el-c">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="el-c">
+                                    <h5 class="h5-c">S'adresser</h5>
+                                    <p class="p-c">Madagascar , Antananarivo , 102</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="groupe-social">
+                            <h4>Suivez-nous sur</h4>
+                           <div class="groupe-social-contact">
+                               <a href="404.html"><i class="fab fa-facebook"></i></a> 
+                               <a href="404.html"><i class="fab fa-instagram"></i></a>
+                               <a href="404.html"><i class="fab fa-whatsapp"></i></a>
+                               <a href="404.html"><i class="fab fa-github"></i></a>
+                               <a href="404.html"><i class="fab fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+	<!-- Footer -->
+	<section class="footer">
+		<div class="wrapper mt-3">
+			<footer class="site-footer text-center" aria-label="Copyright">
+				<span><i class="fal fa-copyright"></i> Nantenaina Josoa | 2025</span>
+			</footer>
+		</div>
+	</section>
+ </div> 
+ 
+ 
+ <div class="splash" id="splash">
+    <div class="loader"></div>
+ </div>
+
+
+</body>
+    <!-- swiper -->
+    <script defer src="swiper/swiper-bundle.min.js"></script> 
+    <!-- mixitup -->
+    <script defer src="mixitup/mixitup.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            mixitup('#skills-container');
+    });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+           mixitup('#skills-projet')
+        })
+    </script>
+    <!-- typed -->
+    <script defer src="typedjs/typed.umd.js"></script>
+    <!-- glightbox -->
+    <script defer src="glightbox/js/glightbox.min.js"></script>
+    <!-- uikit -->
+    <script defer src="uikit/js/uikit.min.js"></script>
+    <!-- aos master -->
+    <script defer src="aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- bootstrap -->
+    <script defer src="bootstrap/jquery_3_3_1.js"></script>
+    <script defer src="bootstrap/popper.js"></script>
+    <script defer src="bootstrap/bootstrap.js"></script>
+    <!-- javascript -->
+    <script defer src="javascript/main.js"></script>
+    <!-- pure counter -->
+    <script defer src="purecounter/purecounter_vanilla.js"></script>
+    <!-- vanilla tilts -->
+    <script src="vanilla-tilts/vanilla-tilts.js"></script>
+</html>

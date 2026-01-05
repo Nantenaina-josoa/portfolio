@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="fontawesome/all.css">
+    <title>Erreur 404 - Page Introuvable</title>
+    <style>
+        :root {
+            --color-bg-start: #6bffd1;
+            --color-bg-mid: #7EB4E8;
+            --color-bg-end: #ffffff;
+            --color-accent-green: #00e5a0;
+            --color-accent-cyan: #4dd6ff;
+            --color-accent-blue: #4C84FF;
+            --color-gradient-1: #01C797;
+            --color-gradient-2: #2B96FF;
+            --text-title: #0C1E3F;
+            --text-heading: #116b54;
+            --text-body: #1b8f72;
+            --text-light: #ffffff;
+            --shadow-dark: rgba(10,61,47,0.35);
+            --shadow-cyan: rgba(77,214,255,0.4);
+            --shadow-glow: 0 0 14px var(--shadow-cyan), 0 0 17px var(--shadow-cyan);
+            --shadow-lg: 0 4px 15px rgba(0,229,160,0.4);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(-45deg, var(--color-bg-start), var(--color-bg-mid), var(--color-accent-cyan), var(--color-bg-end));
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-body);
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 4rem 3rem;
+            border-radius: 24px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: var(--shadow-dark);
+            animation: float 6s ease-in-out infinite;
+            max-width: 90%;
+        }
+
+        .error-code {
+            font-size: clamp(5rem, 15vw, 9rem);
+            font-weight: 900;
+            color: var(--text-title);
+            text-shadow: var(--shadow-glow);
+            line-height: 1;
+            margin-bottom: 1.5rem;
+        }
+
+        .error-message h2 {
+            color: var(--text-heading);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .error-message p {
+            color: var(--text-body);
+            margin-bottom: 2.5rem;
+            max-width: 450px;
+            line-height: 1.6;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 14px 40px;
+            background: linear-gradient(90deg, var(--color-gradient-1), var(--color-gradient-2));
+            color: var(--text-light);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-home:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 25px var(--shadow-cyan);
+        }
+
+        .btn-home:active {
+            transform: translateY(-2px);
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 2.5rem 1.5rem;
+            }
+            .error-message h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        #color{
+            color: #fff;
+        }
+
+        #color2{
+            color: var(--color-accent-blue);
+        }
+
+        .icon{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="error-code">404</h1>
+        <div class="error-message">
+            <h2 id="color2">Oups ! Page introuvable</h2>
+            <p id="color">La page que vous recherchez n'existe pas ou a été déplacée. Vérifiez l'URL ou revenez à la navigation principale.</p>
+        </div>
+        <a href="/" class="btn-home"><i class="fal fa-arrow-left icon"></i> Retour à l'accueil</a>
+    </div>
+
+</body>
+</html>
