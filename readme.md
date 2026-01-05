@@ -168,7 +168,7 @@ git clone https://github.com/Nantenaina-josoa/portfolio.git
 
 2. Ouvrir le fichier index.html dans un navigateur.
 
-<i> Aucune configuration serveur requise (site statique). </i>
+=> Aucune configuration serveur requise (site statique) <=
 
 Contact
 
@@ -186,4 +186,5 @@ Nantenaina Josoa
 Développeur Web • Mobile • Designer UI/UX
 
 © 2025 – Tous droits réservés
+
 
